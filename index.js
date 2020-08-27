@@ -60,4 +60,6 @@ function recursiveSelectionSort(array, size, index){
     }
     recursiveSelectionSort(array, size, index + 1)
 }
-recursiveSelectionSort(array, array.length, 0)
+arrayTwo = [88, 9, 7, 6.9, 3999, 87, 43, 4, 2, 25, 59, 247, 80, 6, 66, 72, 60, 84, 52, 0, 3, 568, 96, 256]
+arrayThree = Array.from({length: 40}, () => Math.floor(Math.random() * 40));
+recursiveSelectionSort(arrayTwo, array.length, 0)
